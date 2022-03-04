@@ -1,0 +1,65 @@
+@import ../../variables
+
+@media (max-width: 1023px)
+  .nav
+    display: none
+    position: fixed
+    margin: 5rem auto
+    width: 90vw
+    height: auto
+    background-color: white
+    box-shadow: 0px 3px 6px 0 rgba(0,0,0, .15)
+    border-radius: 4px
+
+  .isOpened
+    display: block
+
+  .list
+    display: flex
+    height: 100%
+    flex-direction: column
+    margin: 5vh 2rem
+
+  .listItem
+    margin-bottom: 1rem
+    font-size: 2rem
+    font-family: $font-secondary
+
+  .link
+    color: $black
+    text-decoration: none
+    text-transform: capitalize
+    font-family: $font-secondary
+
+@media (min-width: 1024px)
+  .nav
+    display: flex
+    align-items: center
+    
+  .list
+    display: flex
+    align-items: center
+
+  .listItem
+    margin-left: 3rem
+
+  .link
+    font-family: $font-secondary
+    color: $black
+    text-decoration: none
+    font-size: 1rem
+    font-weight: 500
+
+    &:hover
+      color: lighten($navy, 10%)
+
+  .button
+    background-color: $navy
+    padding: .75rem 1rem
+    border-radius: 4px  
+
+    &:hover
+      background-color: lighten($navy, 10%)
+
+    .link
+      color: white !important

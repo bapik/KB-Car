@@ -1,0 +1,31 @@
+@import ../../_variables
+
+$circle-size: clamp(2.5rem, 7vw, 4.5rem)
+
+.grid
+  display: grid
+  grid-auto-rows: auto
+  grid-row-gap: 3rem
+
+.step
+  display: grid
+  grid-template-columns: auto 1fr
+  grid-column-gap: clamp(1rem, 5vw, 2rem)
+
+.text
+  align-self: center
+
+.circle
+  width: $circle-size
+  height: $circle-size
+  border-radius: 50%
+  background-color: $light-blue
+  display: flex
+  align-items: center
+  justify-content: center
+
+.number
+  color: $navy
+  font-weight: 600
+  font-size: clamp(1rem, 5vw, 2rem)
+  font-family: $font-secondary

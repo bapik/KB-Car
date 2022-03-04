@@ -1,0 +1,51 @@
+@import ../../_variables
+
+.react-calendar
+  max-width: 500px
+  margin: 0 auto
+
+  &__navigation
+    button, &__label
+      border-radius: 0
+      border: none
+      background-color: $navy
+      color: white
+      font-size: 1.5rem
+      padding: 1rem
+
+  &__month-view__weekdays
+    background-color: lighten($navy, 10%)
+    color: white
+    text-align: center
+    padding: .75rem 0
+    font-size: 1.5rem
+    text-transform: uppercase
+    text-decoration: none
+    font-family: $font-secondary
+
+    abbr
+      text-decoration: none
+
+  &__tile
+    border: 1px solid #DBDBDB
+    border-radius: 0
+    width: 4rem
+    height: 3rem
+
+    &--active
+      background-color: $navy !important
+      border: 1px solid $navy
+
+      abbr
+        color: white !important
+
+    abbr
+      font-size: 1rem
+      color: #959392
+      font-family: $font-secondary
+
+  &__month-view__days__day
+    background-color: white
+
+    &--neighboringMonth, &--weekend, &--past-day
+      background-color: #F2F2F2

@@ -1,0 +1,23 @@
+@import variables
+
+$colors: ("white": #ffffff, "light-grey": #FBFBFB, "light-blue": #F9FBFF, "black": #193335, "green": #7AC143, "dark-grey": #828282)
+$font-weights: ("normal": 400, "medium": 500, "bold": 600, "bolder": 700)
+
+@each $color, $value in $colors
+  .bg-#{$color}
+    background-color: $value
+
+  .font-#{$color}
+    color: $value
+
+@each $weight, $value in $font-weights
+  .font-#{$weight}
+    font-weight: $value
+
+.text-center
+  text-align: center
+
+.text
+  font-size: 1.25rem
+  font-family: $font-secondary
+  line-height: 1.6

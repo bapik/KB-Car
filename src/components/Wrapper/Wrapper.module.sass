@@ -1,0 +1,21 @@
+.wrapper
+  display: none
+
+@media (min-width: 768px)
+  .wrapper
+    display: block
+    width: 100%
+    position: absolute
+    top: 0
+    height: 100%
+
+  .left
+    margin-right: auto
+
+  .right
+    margin-left: auto
+    right: 0
+
+@media (min-width: 1280px)
+  .wrapper
+    width: calc(1230px + (100vw - 1230px) / 2)

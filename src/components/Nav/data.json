@@ -1,0 +1,17 @@
+[
+  {
+    "url": "oferta",
+    "label": "Oferta",
+    "button": false
+  },
+  {
+    "url": "kontakt",
+    "label": "Kontakt",
+    "button": false
+  },
+  {
+    "url": "rezerwacje",
+    "label": "Zarezerwuj termin",
+    "button": true
+  }
+]

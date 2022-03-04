@@ -1,0 +1,55 @@
+@import ../../_variables
+
+.section
+  margin-top: 3rem
+  padding: 0
+  width: 100%
+
+.button
+  margin-top: 5rem
+
+.title
+  font-size: clamp(1.75rem, 4vw, 3rem)
+  text-align: center
+
+.container
+  padding-top: 5rem
+  padding-bottom: 5rem
+
+.option
+  display: flex
+  margin-bottom: 1rem
+  align-items: center
+
+.options
+  margin-top: 5rem
+  display: flex
+  flex-direction: column
+  align-items: center
+  
+.text
+  text-decoration: none
+  color: $black
+  font-weight: bold
+    
+.icon
+  width: 1.5rem
+  height: 1.5rem
+  float: left
+  margin-right: 1rem
+
+.row
+  display: flex
+  justify-content: center
+
+@media (min-width: 768px)
+  .title
+    max-width: 20ch
+    margin: 0 auto
+
+@media (min-width: 992px)
+  .options
+    margin: 6rem auto 0rem
+    flex-direction: row
+    justify-content: space-between
+    max-width: 768px
