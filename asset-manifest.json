@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/KB-Car/static/css/main.b21a481a.chunk.css",
+    "main.js": "/KB-Car/static/js/main.62c3d79e.chunk.js",
+    "main.js.map": "/KB-Car/static/js/main.62c3d79e.chunk.js.map",
+    "runtime-main.js": "/KB-Car/static/js/runtime-main.27112973.js",
+    "runtime-main.js.map": "/KB-Car/static/js/runtime-main.27112973.js.map",
+    "static/js/2.6868bb4e.chunk.js": "/KB-Car/static/js/2.6868bb4e.chunk.js",
+    "static/js/2.6868bb4e.chunk.js.map": "/KB-Car/static/js/2.6868bb4e.chunk.js.map",
+    "index.html": "/KB-Car/index.html",
+    "static/css/main.b21a481a.chunk.css.map": "/KB-Car/static/css/main.b21a481a.chunk.css.map",
+    "static/js/2.6868bb4e.chunk.js.LICENSE.txt": "/KB-Car/static/js/2.6868bb4e.chunk.js.LICENSE.txt",
+    "static/media/arrow.3585bfee.svg": "/KB-Car/static/media/arrow.3585bfee.svg",
+    "static/media/background.533d6d34.jpg": "/KB-Car/static/media/background.533d6d34.jpg",
+    "static/media/camera.fa61ef1a.svg": "/KB-Car/static/media/camera.fa61ef1a.svg",
+    "static/media/email.a0abb9dd.svg": "/KB-Car/static/media/email.a0abb9dd.svg",
+    "static/media/guarantee.a4bd8e7d.svg": "/KB-Car/static/media/guarantee.a4bd8e7d.svg",
+    "static/media/logo.ece65707.svg": "/KB-Car/static/media/logo.ece65707.svg",
+    "static/media/place.ddceb3f2.svg": "/KB-Car/static/media/place.ddceb3f2.svg",
+    "static/media/safe.ac994aaf.svg": "/KB-Car/static/media/safe.ac994aaf.svg",
+    "static/media/telephone.9fe6c92f.svg": "/KB-Car/static/media/telephone.9fe6c92f.svg",
+    "static/media/warranty.51d77d75.svg": "/KB-Car/static/media/warranty.51d77d75.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27112973.js",
+    "static/js/2.6868bb4e.chunk.js",
+    "static/css/main.b21a481a.chunk.css",
+    "static/js/main.62c3d79e.chunk.js"
+  ]
+}
